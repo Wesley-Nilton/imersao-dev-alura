@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora - dia 1</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+        Conversor</h1>
+        <p class="page-subtitle">
+        Descubra qual a sua média de nota de todas as provas e a conversão de temperatura!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      </div>
+      
+      <div class= "main-forms">
+        <form action="" class="form">
+          <fieldset class="fieldset">
+            <legend>Insira sua nota</legend>
+            <label for="note1">Nota 1° bimestre</label>
+            <input type="number" min="0"  name="user_note1" id="note1" required>
+            <label for="note2">Nota 2° bimestre</label>
+            <input type="number" min="0"  name="user_note2" id="note2" required>
+            <label for="note3">Nota 3° bimestre</label>
+            <input type="number" min="0" name="user_note3" id="note3" required>
+            <label for="note4">Nota 4° bimestre</label>
+            <input type="number" min="0"  name="user_note4" id="note4" required>
+            <br>
+            <span id="resultado"></span>
+          </fieldset>
+          
+          <fieldset class="fieldset">
+            <legend>Conversor de temperatura</legend>
+            <label for="celsius">Celsius</label>
+            <input type="number"  name="user_celsius" id="celsius" required>
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="number"  name="user_fahrenheit" id="fahrenheit" required>
+            <label for="kelvin">Kelvin</label>
+            <input type="number"  name="user_kelvin" id="kelvin" required>
+            <span id="resultado2"></span><br>
+          </fieldset>
+        </form>
+     </div>
+      
+      <div class="wrapper-buttons">
+        <div class= "buttons">
+          <button type="button" onclick="enviar()" class="main-button">Confirmar</button>
+        </div>
+        <div class="buttonssecond">
+            <button type="button" onclick="enviarCFK()" class="main-button">Celsius</button>
+          <button type="button" onclick="enviarFKC()" class="main-button">Fahrenheit</button>
+          <button type="button" onclick="enviarKCF()" class="main-button">Kelvin</button>
+        </div>
+     </div>
+      
+        <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+      
+      <footer class="main-footer">
+        <p class="creditos">Desafio desenvolvido por <strong>Wesley Nilton</strong></p>
+        <a href="https://www.linkedin.com/in/wesley-nilton-8b5262224/" target="_blank" class="creditos">LinkedIn</a>
+        <a href="https://github.com/Wesley-Nilton" target="_blank" class="creditos">GitHub</a>
+      </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

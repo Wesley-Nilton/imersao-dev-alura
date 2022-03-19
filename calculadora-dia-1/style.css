@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    height: 98vh;
+    text-align: center;
+    background-image: url("imagens/img1.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 20vh;
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 5px;
+  }
+  
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .main-forms{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .main-forms .form{
+    display: flex;
+    width: 500px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 5px;
+  }
+  
+  .form .fieldset{
+    width: 250px;
+  }
+  
+  .wrapper-buttons{
+    display: flex;
+    width: 500px;
+    margin: 10px auto;
+    justify-content: space-around;
+  }
+  
+  .buttons{
+    width: 250px;
+  }
+  
+  .buttonssecond{
+    width: 250px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .main-footer{
+    display: inline-block;
+    width: 500px;
+    margin-top: 25px;
+    padding-bottom: 16px;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 5px;
+  }
+  
+  .main-footer .creditos{
+    text-decoration: none;
+    color: #fff;
+    
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor - dia 2</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversores
+        </h1>
+      
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+      
+        <div class="principal">
+          <h2>Conversor de moedas v2</h2>
+          <label for="moeda">Insira o valor em R$</label><br>
+          <input type="number" id="valor" size="2" /><br>
+          <button type="submit" onclick="Converter()">Dólar</button>
+          <button type="submit" onclick="Converter2()">Euro</button>
+          <button type="submit" onclick="Converter3()">Bitcoin</button>
+          <h3 id="valorConvertido"></h3>
+      
+          <div class="secundario">
+            <h2>Conversor de quilômetro em anos luz</h2>
+            <label for="distancia">Insira o valor em Km</label><br>
+            <input type="number" id="quilometro" size="2" /><br>
+            <button type="submit" onclick="Converter4()">Gerar</button>
+            <h3 id="distanciaConvertida"></h3>
+          </div>
+        </div>
+      
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+      
+        <footer class="main-footer">
+          <p class="creditos">Desafio desenvolvido por <strong>Wesley Nilton</strong></p>
+          <a href="https://www.linkedin.com/in/wesley-nilton-8b5262224/" target="_blank" class="creditos">LinkedIn</a>
+          <a href="https://github.com/Wesley-Nilton" target="_blank" class="creditos">GitHub</a>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
