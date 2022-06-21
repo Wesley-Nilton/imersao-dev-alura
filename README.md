@@ -22,6 +22,6 @@ Na construção dos projetos foram utilizadas as seguintes tecnologias:
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 👥| Autor(es)
-Autores e contribuidores do projeto:
+Autores e contribuidores dos projetos:
 
 - [Wesley Nilton](https://github.com/Wesley-Nilton)
