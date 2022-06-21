@@ -1,5 +1,5 @@
-# Imersão Dev Alura
-Repóstiorio destinado a todos os projetos realizados durante a Imersão Dev Alura 2022.
+# Imersão Dev - Alura
+Repositório destinado a todos os projetos realizados durante a Imersão Dev Alura 2022.
 
 ## 🔎| Visualize
 Visualize o resultado atual dos projetos:
